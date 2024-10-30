@@ -30,6 +30,7 @@ public class LoginStepDefs {
     public void the_user_should_land_on_the_home_page_and_the_should_be_displayed(String expectedTitle) {
         String actualTitle = Driver.getDriver().getTitle();
         assertEquals(expectedTitle, actualTitle);
+
     }
 
 
